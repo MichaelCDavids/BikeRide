@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0988447e-961a-4e85-92e4-030b8280917c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/rides/FunRideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rides/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/rides/FunRideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rides/FunRideTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/rides/FunRideTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +43,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="rides" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.BicycleTest">
     <configuration name="BikeRide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

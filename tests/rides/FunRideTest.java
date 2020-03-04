@@ -1,5 +1,7 @@
 package rides;
 
-public class FunRideTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+class FunRideTest {
 
 }
