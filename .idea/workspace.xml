@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0988447e-961a-4e85-92e4-030b8280917c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/FunRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/rides/FunRideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tests/rides" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -167,6 +171,10 @@
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="193" y="24" key="SettingsEditor/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583309018542" />
+    <state x="482" y="162" key="chooseDestDirectoryDialog" timestamp="1583344048004">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="482" y="162" key="chooseDestDirectoryDialog/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583344048004" />
     <state x="368" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1583307970418">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
@@ -175,6 +183,10 @@
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="382" y="279" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583309002467" />
+    <state x="484" y="73" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583344048046">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="484" y="73" key="com.intellij.testIntegration.createTest.CreateTestDialog/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583344048046" />
     <state x="369" y="168" key="run.anything.popup" timestamp="1583313819453">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
