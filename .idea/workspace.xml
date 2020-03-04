@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0988447e-961a-4e85-92e4-030b8280917c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/models/MountainBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bicycles/models/Tandem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BicycleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bicycles/BikeRideTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/Bicycle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BikeRide/bicycles/BicycleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bicycles/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/BikeRide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/BicycleTest.java" afterDir="false" />
     </list>
@@ -22,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -147,30 +147,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1583326126976">
+    <state x="518" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1583340406976">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state x="518" y="95" key="#com.intellij.ide.util.MemberChooser/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583326126976" />
+    <state x="518" y="95" key="#com.intellij.ide.util.MemberChooser/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583340406976" />
     <state x="446" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583315624716">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
     <state x="446" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583315624716" />
-    <state width="1275" height="337" key="GridCell.Tab.0.bottom" timestamp="1583326308482">
+    <state width="1275" height="337" key="GridCell.Tab.0.bottom" timestamp="1583340385537">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="337" key="GridCell.Tab.0.bottom/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583326308482" />
-    <state width="1275" height="337" key="GridCell.Tab.0.center" timestamp="1583326308482">
+    <state width="1275" height="337" key="GridCell.Tab.0.bottom/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583340385537" />
+    <state width="1275" height="337" key="GridCell.Tab.0.center" timestamp="1583340385536">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="337" key="GridCell.Tab.0.center/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583326308482" />
-    <state width="1275" height="337" key="GridCell.Tab.0.left" timestamp="1583326308481">
+    <state width="1275" height="337" key="GridCell.Tab.0.center/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583340385536" />
+    <state width="1275" height="337" key="GridCell.Tab.0.left" timestamp="1583340385536">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="337" key="GridCell.Tab.0.left/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583326308481" />
-    <state width="1275" height="337" key="GridCell.Tab.0.right" timestamp="1583326308482">
+    <state width="1275" height="337" key="GridCell.Tab.0.left/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583340385536" />
+    <state width="1275" height="337" key="GridCell.Tab.0.right" timestamp="1583340385537">
       <screen x="45" y="24" width="1321" height="744" />
     </state>
-    <state width="1275" height="337" key="GridCell.Tab.0.right/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583326308482" />
+    <state width="1275" height="337" key="GridCell.Tab.0.right/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583340385537" />
     <state x="193" y="24" key="SettingsEditor" timestamp="1583309018542">
       <screen x="45" y="24" width="1321" height="744" />
     </state>

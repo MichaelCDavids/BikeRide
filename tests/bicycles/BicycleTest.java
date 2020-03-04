@@ -1,6 +1,8 @@
 package bicycles;
 
+import bicycles.models.MountainBike;
 import bicycles.models.RoadBike;
+import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -42,22 +44,22 @@ public class BicycleTest {
     // MountainBike Tests
     @Test
     public void shouldAccelerateMountainBike(){
-        Bicycle bicycle = new RoadBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
-        assertEquals(11,bicycle.currentSpeed());
+        assertEquals(5,bicycle.currentSpeed());
     }
 
     @Test
     public void shouldBrakeMountainBike(){
-        Bicycle bicycle = new RoadBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         bicycle.brake();
-        assertEquals(7,bicycle.currentSpeed());
+        assertEquals(2,bicycle.currentSpeed());
     }
 
     @Test
     public void shouldStopMountainBike(){
-        Bicycle bicycle = new RoadBike();
+        Bicycle bicycle = new MountainBike();
         bicycle.accelerate();
         bicycle.accelerate();
         bicycle.accelerate();
@@ -67,7 +69,38 @@ public class BicycleTest {
     }
     @Test
     public void shouldGetCurrentSpeedMountainBike(){
-        Bicycle bicycle = new RoadBike();
+        Bicycle bicycle = new MountainBike();
+        assertEquals(0,bicycle.currentSpeed());
+    }
+    // Tandem Tests
+    @Test
+    public void shouldAccelerateTandem(){
+        Bicycle bicycle = new Tandem();
+        bicycle.accelerate();
+        assertEquals(12,bicycle.currentSpeed());
+    }
+
+    @Test
+    public void shouldBrakeTandem(){
+        Bicycle bicycle = new Tandem();
+        bicycle.accelerate();
+        bicycle.brake();
+        assertEquals(5,bicycle.currentSpeed());
+    }
+
+    @Test
+    public void shouldStopTandem(){
+        Bicycle bicycle = new Tandem();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.accelerate();
+        bicycle.stop();
+        assertEquals(0,bicycle.currentSpeed());
+    }
+    @Test
+    public void shouldGetCurrentSpeedTandem(){
+        Bicycle bicycle = new Tandem();
         assertEquals(0,bicycle.currentSpeed());
     }
 }
