@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0988447e-961a-4e85-92e4-030b8280917c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YefQN7HprJ50oZGGnfzAUmwmDr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.BicycleTest.shouldAccelerate">
+    <configuration name="BicycleTest.shouldAccelerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleTest" />
+      <option name="METHOD_NAME" value="shouldAccelerate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BicycleTest.shouldAccellerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.BicycleTest" />
+      <option name="METHOD_NAME" value="shouldAccellerate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BicycleTest.shouldAccelerate" />
+        <item itemvalue="JUnit.BicycleTest.shouldAccellerate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0988447e-961a-4e85-92e4-030b8280917c" name="Default Changelist" comment="" />
+      <created>1583307963958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583307963958</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1275" height="193" key="GridCell.Tab.0.bottom" timestamp="1583312906325">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="193" key="GridCell.Tab.0.bottom/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583312906325" />
+    <state width="1275" height="193" key="GridCell.Tab.0.center" timestamp="1583312906325">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="193" key="GridCell.Tab.0.center/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583312906325" />
+    <state width="1275" height="193" key="GridCell.Tab.0.left" timestamp="1583312906325">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="193" key="GridCell.Tab.0.left/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583312906325" />
+    <state width="1275" height="193" key="GridCell.Tab.0.right" timestamp="1583312906325">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state width="1275" height="193" key="GridCell.Tab.0.right/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583312906325" />
+    <state x="193" y="24" key="SettingsEditor" timestamp="1583309018542">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="193" y="24" key="SettingsEditor/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583309018542" />
+    <state x="368" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1583307970418">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="368" y="211" key="com.intellij.ide.util.TipDialog/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583307970418" />
+    <state x="382" y="279" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583309002467">
+      <screen x="45" y="24" width="1321" height="744" />
+    </state>
+    <state x="382" y="279" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/45.24.1321.744/1366.0.1366.768@45.24.1321.744" timestamp="1583309002467" />
+  </component>
+</project>
