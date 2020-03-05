@@ -1,6 +1,8 @@
-package bicycles;
+package bicycles.rides;
 
 
+import bicycles.interfaces.Bicycle;
+import bicycles.interfaces.BikeRide;
 
 public class BikeRideOne implements BikeRide {
 

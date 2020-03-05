@@ -1,4 +1,4 @@
-package bicycles;
+package bicycles.interfaces;
 
 public interface Bicycle {
     void accelerate();

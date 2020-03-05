@@ -1,4 +1,6 @@
-package bicycles;
+package bicycles.specifications;
+
+import bicycles.interfaces.Bicycle;
 
 public class BicycleSpecification {
     private int accelerationSpeed;

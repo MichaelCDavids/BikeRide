@@ -1,6 +1,13 @@
-package bicycles;
+package bicycles.specifications;
+
+import bicycles.BicycleBase;
 
 public class BicycleFromSpec extends BicycleBase {
+
+
+    public BicycleFromSpec(){
+
+    }
 
 
     @Override

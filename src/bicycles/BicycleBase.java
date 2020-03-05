@@ -1,6 +1,8 @@
 package bicycles;
 
-public abstract class BicycleBase implements  Bicycle {
+import bicycles.interfaces.Bicycle;
+
+public abstract class BicycleBase implements Bicycle {
 
     protected  int speed = 0;
 

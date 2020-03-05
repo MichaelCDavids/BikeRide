@@ -1,4 +1,6 @@
-package bicycles;
+package bicycles.rides;
+
+import bicycles.interfaces.Bicycle;
 
 import java.util.ArrayList;
 
@@ -16,6 +18,6 @@ public class FunRide {
         return this.listOfBicyclesEntered.size();
     }
 
-
+    /* TODO accept(bike), getCountForType(type) */
 
 }
