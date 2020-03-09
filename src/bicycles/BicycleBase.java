@@ -9,11 +9,9 @@ public abstract class BicycleBase implements Bicycle {
     protected BicycleType bicycleType;
 
     protected void changeSpeed(int change){
-
-        if (this.speed - change <= 0) {
+        this.speed += change;
+        if (this.speed < 0) {
             this.speed = 0;
-        } else {
-            this.speed += change;
         }
     }
 

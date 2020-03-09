@@ -38,19 +38,8 @@ public class BikeRideTwoTest {
 
         BikeRideTwo testRun = new BikeRideTwo(rideBike);
         testRun.ride();
-        testRun.stop();
 
-        assertEquals(0,testRun.currentSpeed());
-    }
-
-    @Test
-    void checkGetBicycleTypeMethod(){
-        BicycleSpecification bike = new BicycleSpecification(BicycleType.Tandem);
-        Bicycle rideBike = new BicycleFromSpec(bike);
-
-        BikeRideTwo testRun = new BikeRideTwo(rideBike);
-
-        assertEquals(BicycleType.Tandem,testRun.getBicycleType());
+        assertEquals(36,testRun.currentSpeed());
     }
 
 }
