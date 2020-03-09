@@ -1,5 +1,6 @@
 package bicycles.interfaces;
 
-interface BikeRide {
+public interface BikeRide {
     void ride();
+    int currentSpeed();
 }
