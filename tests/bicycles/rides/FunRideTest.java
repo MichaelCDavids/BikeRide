@@ -65,17 +65,6 @@ class FunRideTest {
         assertEquals(32,bikeRideOne.currentSpeed());
     }
 
-    @Test
-    void checkCurrentSpeedMethod(){
-        // RoadBike
-        BicycleSpecification oneBicycle = new BicycleSpecification(BicycleType.RoadBike);
-        Bicycle bicycleOne = new BicycleFromSpec(oneBicycle);
-
-        BikeRideOne bikeRideOne = new BikeRideOne(bicycleOne);
-        bikeRideOne.ride();
-
-        assertEquals(32,bikeRideOne.currentSpeed());
-    }
 
     @Test
     void checkGetEnteredCountMethod(){
