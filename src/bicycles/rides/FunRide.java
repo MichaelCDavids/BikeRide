@@ -36,10 +36,6 @@ public class FunRide  {
     public void accept(Bicycle bicycle){
         if(listOfEnteredBicycles.size() < maximumNumberOfBicyclesForRide && !listOfEnteredBicycles.contains(bicycle)){
             listOfEnteredBicycles.add(bicycle);
-            System.out.println("Hooray! Bicycle entered into Fun Ride!");
-        }else{
-            System.out.println("The Fun Ride is all booked out o");
         }
-
     }
 }
